@@ -122,7 +122,6 @@ button{
 	color: #fff;
 }
 
-
 .start-button,
 .stop-button {
 	display: flex;
@@ -208,7 +207,7 @@ button{
 
 .window {
 	height: 200px;
-	width: 200px;
+	width: 300px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -244,6 +243,9 @@ button{
 }
 		
 @media (max-width: 991px) {
+	.window{
+		width: 200px;
+	}
 	.card-text{
 		font-size: 24px;
 	}
@@ -267,6 +269,9 @@ button{
 		height: 400px;
 		box-shadow: 4px 4px 4px #000;
 	}
+	button {
+		width: 250px;
+	}
 }
 
 
@@ -277,15 +282,7 @@ button{
 	.timer{
 		font-size: 20px;
 	}
-	.again-button,
-	.exit-button,
-	.switch-button,
-	.start-button,
-	.stop-button,
-	.challenge-button,
-	.crocodile-button,
-	.never-button,
-	.truth-button {
+	button {
 		width: 270px;
   	}
 	.card{
@@ -325,15 +322,7 @@ button{
 	.card-text{
 		font-size: 22px;
 	}
-	.again-button,
-	.exit-button,
-	.switch-button,
-	.start-button,
-	.stop-button,
-	.challenge-button,
-	.crocodile-button,
-	.never-button,
-	.truth-button {
+	button {
 		width: 200px;
   	}
 	.croco{
@@ -351,8 +340,8 @@ button{
 		position: absolute;
 		top: -10%;
 	}
-	.card{
-		width: 320px;
+	.card {
+		width: 300px;
 		height: 440px;
 		box-shadow: 4px 4px 4px #000;
 		padding: 30px;
@@ -360,17 +349,6 @@ button{
 	.card-text{
 		font-size: 22px;
 	}
-	.again-button,
-	.exit-button,
-	.switch-button,
-	.start-button,
-	.stop-button,
-	.challenge-button,
-	.crocodile-button,
-	.never-button,
-	.truth-button {
-		width: 200px;
-  	}
 	.croco{
 		width: 300px;
 	}
@@ -378,6 +356,11 @@ button{
 		top: 2%;
 		left: 50%;
 		transform: translateX(-37%);
+	}
+	.start-button,
+	.stop-button {
+		width: 60px;
+		height: 60px;
 	}
 }
 
