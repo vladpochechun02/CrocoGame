@@ -41,6 +41,12 @@
 	z-index: 1001;
 	pointer-events: none;
 }
+
+.croco-never,
+.croco-end-game{
+	height: 100px;
+	width: 100px;
+}
 	
 .loaded {
 	opacity: 1;
@@ -120,6 +126,21 @@ button{
 	border: none;
 	cursor: pointer;
 	color: #fff;
+}
+
+.back-to-menu{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	left: 15px;
+	top: 15px;
+	/* background-color: red; */
+	opacity: 1;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+	transition: .2s;
 }
 
 .start-button,
